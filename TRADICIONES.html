@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tradiciones Mexicanas - Día de Muertos</title>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+
+  :root {
+    --yellow: #f9d71c;
+    --orange: #f57c00;
+    --purple: #6a1b9a;
+    --pink: #e91e63;
+    --text-dark: #2e2e2e;
+    --bg-pattern: url('https://www.transparenttextures.com/patterns/papel-picado.png');
+    --radius: 12px;
+    --shadow: rgba(0,0,0,0.15);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff8f0;
+    background-image: var(--bg-pattern);
+    background-repeat: repeat;
+    color: var(--text-dark);
+    padding: 3rem 1.5rem;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  main {
+    max-width: 700px;
+    width: 100%;
+    background: white;
+    border-radius: var(--radius);
+    padding: 2rem 3rem;
+    box-shadow: 0 10px 20px var(--shadow);
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--orange);
+    background: linear-gradient(45deg, var(--yellow), var(--orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  }
+
+  section {
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: var(--purple);
+    margin-bottom: 0.75rem;
+    border-left: 6px solid var(--pink);
+    padding-left: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+
+  p {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+
+  img {
+    width: 100%;
+    border-radius: var(--radius);
+    box-shadow: 0 4px 12px var(--shadow);
+    display: block;
+  }
+
+  /* Optional button style for future links */
+  .btn {
+    display: inline-block;
+    background: var(--pink);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: var(--radius);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  .btn:hover {
+    background: var(--purple);
+  }
+
+</style>
+</head>
+<body>
+
+<main>
+  <h1>Tradiciones Mexicanas</h1>
+
+  <section>
+    <h2>Día de Muertos</h2>
+    <p>El Día de Muertos es una festividad mexicana que honra a los difuntos los días 1 y 2 de noviembre, mezclando tradiciones prehispánicas con influencias católicas.</p> 
+    <p>Durante esta época, se cree que las almas de los seres queridos regresan para visitar a sus familias. La celebración se caracteriza por la creación de coloridos altares 
+    <p>con ofrendas de comida, veladoras y flores, así como visitas a cementerios para honrar a quienes ya no están. En 2008, la UNESCO reconoció esta tradición como 
+    Patrimonio Cultural Inmaterial de la Humanidad. .</p>
+    <img src="https://content-viajes.nationalgeographic.com.es/medio/2025/10/07/altar-de-dia-de-muertos-en-oaxaca_00000000_a7689210_251007165515_1280x854.webp" alt="Ofrenda Día de Muertos" />
+  </section>
+
+  <section>
+    <h2>Origen de la Catrina</h2>
+    <p>La Catrina fue creada por el artista José Guadalupe Posada y popularizada por Diego Rivera. Representa que todos somos iguales ante la muerte sin importar clase social.</p>
+    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/UTJEG7D7N5F3NJBRWIEOBTM3UI.jpeg" alt="La Catrina por José Guadalupe Posada" />
+  </section>
+</main>
+
+</body>
+</html>
